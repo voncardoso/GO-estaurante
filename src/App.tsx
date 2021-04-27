@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import {GlobalStyle} from "./styles/global";
+import { Header } from './Components/Header/header';
+
 
 
 export function App() {
   return (
     <>
-      <GlobalStyle />
+    <GlobalStyle />
+    < Header /> 
     </>
   );
 }
